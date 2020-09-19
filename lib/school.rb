@@ -13,6 +13,9 @@ class School
  end
 
  def grade(number)
+   
+
+ end
 
 end
  # code here!
