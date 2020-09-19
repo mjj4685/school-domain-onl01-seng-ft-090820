@@ -24,6 +24,7 @@ class School
   end
 
 roster_hash
+end
+end
+end
 
-end
-end
