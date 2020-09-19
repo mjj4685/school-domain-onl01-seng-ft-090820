@@ -18,7 +18,7 @@ class School
 
   end
 
-hash
+roster_hash
 
 end
 end
