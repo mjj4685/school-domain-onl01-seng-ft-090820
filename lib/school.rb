@@ -15,10 +15,10 @@ class School
     @roster[number]
   end
 
-  def sort 
+  def sort
     roster_hash = {}
-    roster.each do |grade, students| 
-    roster_hash[grade] = students.sort 
+    roster.each do |grade, students|
+    roster_hash[grade] = students.sort
 
   end
 
