@@ -21,5 +21,7 @@ class School
      @roster.sort
   end
 
+hash
+
 end
 end
