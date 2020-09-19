@@ -15,6 +15,8 @@ class School
  end
 
  def sort
+   hash ={}
+   @roster.keys.sort
    @roster.sort
  end
 
