@@ -1,11 +1,12 @@
 class School
-  attr_accessor :roster
+  attr_accessor :name, :roster
 
-  def initialize(names)
+  def initialize(name)
+    @name = name
     @roster = {}
   end
 
-  def add_student(name, grade)
+  def add_student(student, grade)
     @roster[grade] ||= []
     @roster[grade] << name
   end
@@ -14,11 +15,11 @@ class School
     @roster[number]
   end
 
-  def sort
-     hash ={}
-     @roster.keys.sort.each do |number|
-     hash[number] = @roster[number].sort
-     @roster.sort
+  def sort 
+    roster_hash = {}
+    roster.each do |grade, students| 
+    roster_hash[grade] = students.sort 
+
   end
 
 hash
