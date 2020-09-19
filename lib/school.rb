@@ -1,12 +1,11 @@
 class School
-  attr_accessor :author, :page_count
-  attr_reader :name, :genre
+  attr_accessor :name, :roster
 
   def initialize(name)
     @name = name
   end
 
-  def roster
+  def roster(student_name, [])
     roster = {}
   end
 
