@@ -23,7 +23,8 @@ class School
     roster_hash[grade] = students.sort
   end
 
-roster_hash
+    roster_hash
+  end
+
 end
-end
-end
+
