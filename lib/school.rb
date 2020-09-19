@@ -15,7 +15,6 @@ class School
     roster_hash = {}
     roster.each do |grade, students|
     roster_hash[grade] = students.sort
-
   end
 
 roster_hash
